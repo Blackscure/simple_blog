@@ -1,6 +1,6 @@
 class Post(object):
 
-    def __init__(self):
-        self.title= "This is my title"
-        self.content = "This is some content"
+    def __init__(self,title,content,author):
+        self.title= "title"
+        self.content = "content"
         self.author = "Jose"
